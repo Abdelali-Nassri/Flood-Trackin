@@ -16,6 +16,7 @@
     "mdbreact": "^5.2.0",
     "moment": "^2.29.1",
     "node-sass": "6.0.0",
+    "npm": "^8.5.5",
     "perfect-scrollbar": "1.5.1",
     "react": "17.0.2",
     "react-audio-player": "^0.17.0",

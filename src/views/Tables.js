@@ -37,7 +37,7 @@ function Tables() {
      const [ value4, setValue4 ] = React.useState(2);
      const [ value5, setValue5 ] = React.useState("");
      const [clr, setclr] = React.useState('white');
-    const API_URL = 'http://0bdf-34-125-231-38.ngrok.io/'+value+'/'+value2+'/'+value3;
+    const API_URL = 'http://5f03-35-229-202-76.ngrok.io/'+value+'/'+value2+'/'+value3;
 
     function predict(){
      axios.get(API_URL).then(response => response.data)

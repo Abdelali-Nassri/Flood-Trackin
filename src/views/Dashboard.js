@@ -133,7 +133,7 @@ class Dashboard extends react.Component {
 
                         {this.state.loading ? <span>...</span> :
                           this.state.waterFlowData.feeds.map((item) => (<div>
-                          <span className="sensor_value">{item.field2} m/s</span>
+                          <span className="sensor_value">{item.field2} L/min</span>
                         </div>
                         ))}
                         </div>
@@ -283,7 +283,7 @@ class Dashboard extends react.Component {
                   {this.state.loading ? 
                             <Row>
                               <Col md="12" xs="7">
-                                <div class="blobGreen">Sensors data are normal</div>
+                                <div class="blobGreen">Sensors data is normal</div>
                                 <br/><br/>
                               </Col>
                             </Row> 

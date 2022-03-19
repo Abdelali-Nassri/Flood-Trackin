@@ -38,7 +38,7 @@ today2.setDate(today2.getDate()+1);
 const t7 = today2.toDateString();
 
 
-const API_URL = 'http://0bdf-34-125-231-38.ngrok.io/h';
+const API_URL = 'http://5f03-35-229-202-76.ngrok.io/h';
 class User extends react.Component {
   
 
